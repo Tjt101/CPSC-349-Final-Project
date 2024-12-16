@@ -84,6 +84,10 @@ section h2 {
 }
 
 /* Projects Section */
+#projects {
+    padding: 2rem 0;
+}
+
 #projects .project {
     margin-bottom: 2rem;
     padding: 1rem;
@@ -98,6 +102,10 @@ section h2 {
 }
 
 /* Skills Section */
+#skills {
+    padding: 2rem 0;
+}
+
 #skills ul {
     list-style: none;
     padding: 0;
@@ -141,6 +149,10 @@ section h2 {
     cursor: pointer;
 }
 
+.social-links {
+    margin-top: 1rem;
+}
+
 .social-links a {
     margin: 0 0.5rem;
     color: #333;
@@ -179,4 +191,15 @@ footer {
         display: block;
         margin: 0.5rem auto;
     }
+}
+
+/* Utility Classes for Shared Components */
+.section {
+    padding: 2rem 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
 }
